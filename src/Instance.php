@@ -2,8 +2,6 @@
 
 namespace Nawie\Eloquent;
 
-require_once __DIR__ . './../vendor/autoload.php';
-
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
 use Illuminate\Database\Capsule\Manager as Capsule;

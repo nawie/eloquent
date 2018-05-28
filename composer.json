@@ -1,0 +1,33 @@
+{
+    "name": "nawie/eloquent",
+    "description": "Stand alone Database wrapper from laravel with additional support for Oracle DB driver using yajra/laravel-oci8",
+    "keywords" : ["laravel","oracle","oci8","pdo_oci"],
+    "type": "project",
+    "version": "master",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iwan Hartanto",
+            "email": "elop.development@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-oci8": ">=2.0.0",
+        "illuminate/database": "^5.5",
+        "yajra/laravel-oci8": "^5.5",
+        "illuminate/events": "^5.5"
+    },
+    "autoload": {
+      "psr-4": {"Nawie\\Eloquent\\": "src"},
+      "files": ["src/Config/Autoload.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
